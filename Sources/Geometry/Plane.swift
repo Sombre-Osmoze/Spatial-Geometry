@@ -14,6 +14,9 @@ public typealias Normal = SIMD3
 
 // MARK: - Plane
 
+
+/// Represent a 3D plane (face) with its coordinate and normals.
+/// - exemple: A triangle.
 public struct Plane<S: SIMDScalar> {
 
 	public let coordinates : [Coordinate<S>]
